@@ -1,4 +1,4 @@
-This week, i focused on the founamentals of JavaScript. At the end of the week, i was able to learn the following;
+This week, i focused on the foundamentals of JavaScript. At the end of the week, i was able to learn the following;
 
 1. How to create variables and constants
 2. What are differences between var, const and let
