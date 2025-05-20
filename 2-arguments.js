@@ -6,9 +6,9 @@ let realArgs = args.slice(2);
 const count = realArgs.length;
 console.log(count);
 
-if (count === 0) {
+if (count == 0) {
   console.log("No argument");
-} else if (count === 1) {
+} else if (count == 1) {
   console.log("Argument found");
 } else {
   console.log("Arguments found");
