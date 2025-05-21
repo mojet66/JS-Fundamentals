@@ -1,9 +1,5 @@
-const args = process.argv;
-// console.log(args);
-let realArgs = args.slice(2);
-// console.log(realArgs);
-// console.log(realArgs.length);
-const count = realArgs.length;
+const args = process.argv.slice(2);
+const count = args.length;
 console.log(count);
 
 if (count == 0) {
@@ -13,3 +9,8 @@ if (count == 0) {
 } else {
   console.log("Arguments found");
 }
+
+// // const args = process.argv.slice(2);
+// console.log(args[0]);
+// console.log(args[1]);
+// console.log(args[2]);
